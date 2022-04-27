@@ -1,0 +1,177 @@
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.menu {
+    background-color: #fff;
+}
+
+.background {
+    background-image: url("../assets/background.jpg");
+    top: 0;
+    left: 0;
+    width:100%;
+    height:10%;
+    z-index:-10;
+    zoom: 1;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    margin: 0;
+    padding: 0;
+}
+
+.name_right {
+    margin-left: 10px;
+}
+
+.name_left {
+    margin-left: 10px;
+}
+
+.content_right {
+    border-radius: 10px;
+    background-color: #40cf33;
+    word-wrap: break-word;
+    width: fit-content;
+    max-width: 80%;
+    margin-left: 60px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content_left {
+    color:#fff;
+    border-radius: 10px;
+    background-color: #54a5ca;
+    word-wrap: break-word;
+    width: fit-content;
+    max-width: 80%;
+    margin-left: 60px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.url_right {
+    margin-left: 15px;
+}
+
+.url-left {
+    margin-left: 15px;
+}
+
+::-webkit-scrollbar {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    border-style: dashed;
+    background-color: #DCE1E6;
+    border-color: #e2242400;
+    border-width: 1px;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    /*border-radius: 10px;*/
+    background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(157, 165, 183, 0.7)
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.infinite-list-wrapper p {
+    text-align: center;
+}
+
+.show-input-content {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.emotion {
+    width: 22px !important;
+    height: 22px !important;
+    margin-right: 4px;
+    line-height: 40px;
+    top: 5px;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.talk {
+    background-color: #fff;
+    border: 1px solid #DCE1E6;
+    width: 1000px;
+    height:600px;
+    margin: 0 auto;
+}
+
+.talk-header {
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    border-bottom: 1px solid #DCE1E6;
+}
+
+.talk-header-icon {
+    padding-left: 930px;
+}
+
+.talk-content {
+    overflow-y: auto;
+    height: 400px;
+}
+
+.talk-message {
+    border-top: 1px solid #DCE1E6;
+    height: 40px;
+    display: flex;
+}
+
+.talk-message-face {
+    width: 50px;
+    padding-left: 2px;
+    padding-top: 10px;
+}
+
+.talk-message-content {
+    font-size: 20px;
+    padding-top: 10px;
+    width: 850px;
+}
+
+.talk-message-send {
+    padding-top: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
