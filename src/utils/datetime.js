@@ -24,9 +24,24 @@ export function formatWithSeperator(dateSeprator, timeSeprator) {
     const year = dateMat.getFullYear();
     const month = dateMat.getMonth() + 1;
     const day = dateMat.getDate();
-    const hh = dateMat.getHours();
-    const mm = dateMat.getMinutes();
-    const ss = dateMat.getSeconds();
+    let hh = dateMat.getHours();
+    if (hh < 10) {
+        hh = "0" + String(hh);
+    } else {
+        hh = String(hh);
+    }
+    let mm = dateMat.getMinutes();
+    if (mm < 10) {
+        mm = "0" + String(mm);
+    } else {
+        mm = String(mm);
+    }
+    let ss = dateMat.getSeconds();
+    if (ss < 10) {
+        ss = "0" + String(ss);
+    } else {
+        ss = String(ss);
+    }
     const timeFormat = year + dateSeprator + month + dateSeprator + day + " " + hh + timeSeprator + mm + timeSeprator + ss;
     return timeFormat;
 
