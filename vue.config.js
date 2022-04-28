@@ -1,6 +1,6 @@
 const proxyObj = {}
 proxyObj['/api'] = {
-    target: 'http://124.223.80.199',
+    target: 'http://3593u12a85.zicp.vip/',
     changeOrigin: true,
     ws: true, //是否代理 websockets
     pathRewrite: {
@@ -10,7 +10,7 @@ proxyObj['/api'] = {
 module.exports = {
     devServer: {
         host: '0.0.0.0',
-        port: 8081,
+        port: 9000,
         proxy: proxyObj
     }
 }
