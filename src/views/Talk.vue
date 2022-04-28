@@ -233,7 +233,7 @@ export default {
       this.contentDiv.push(c);
       let d = {
         name: "武小理",
-        url: "https://img0.baidu.com/it/u=1741172190,3962404342&fm=26&fmt=auto&gp=0.jpg",
+        url: require('@/assets/wuxiaoli.png'),
         content: "",
         show: false,
         time: "2021-7-12 17:12:46",
